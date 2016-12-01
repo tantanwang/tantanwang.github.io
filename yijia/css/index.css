@@ -1,0 +1,12 @@
+.margin{
+	margin: 0 auto;
+	width: 1210px;
+}
+
+#all{
+	float:left;
+	position: relative;
+	width:100%;
+	text-align: left;
+	background: url(../img/bg.gif) repeat-x top;
+}

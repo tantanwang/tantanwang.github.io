@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+#head .top .top-l{
+    float: left;
+    width: 598px;
+    height: 31px;
+}
+
+#head .top .top-l ul li{
+    float: left;
+    line-height: 31px;
+    padding: 0 13px;
+    background:url(../img/li.gif) no-repeat right;
+    
+    &.last{
+        background:none;
+    }
+    
+    a{
+        color: #656565;
+    }
+}
+
+#head .top .top-r{
+     float: left;
+    width: 612px;
+    height: 31px;
+    line-height: 31px;
+    
+    dl{
+        float:left;
+        dt{
+            float: left;
+            color: #656565;
+        }
+        dd{
+            float:left;
+            a{
+                float: left;                       
+                color: #000;
+                margin-right: 7px;        
+            }
+        }
+         
+    }
+        
+    ul{
+        float:right;
+        li{
+            float: left;
+            padding: 0 10px;
+            background:url(../img/li.gif) no-repeat right;
+            &.last{
+                background:none;
+            }
+            a{
+                color:#656565;
+            }
+             
+        }
+    }
+}
+
+#head .logo{
+    .log{
+        float:left;
+    }
+    .merch{
+        float:left;
+    }
+    .search{
+        float:left;
+    }
+    .wechat{
+        float:left;
+    }
+    .cart{
+        float:left;
+    }
+}

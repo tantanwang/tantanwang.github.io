@@ -1,0 +1,72 @@
+#head .top .top-l {
+  float: left;
+  width: 598px;
+  height: 31px;
+}
+
+#head .top .top-l ul li {
+  float: left;
+  line-height: 31px;
+  padding: 0 13px;
+  background: url(../img/li.gif) no-repeat right;
+}
+#head .top .top-l ul li.last {
+  background: none;
+}
+#head .top .top-l ul li a {
+  color: #656565;
+}
+
+#head .top .top-r {
+  float: left;
+  width: 612px;
+  height: 31px;
+  line-height: 31px;
+}
+#head .top .top-r dl {
+  float: left;
+}
+#head .top .top-r dl dt {
+  float: left;
+  color: #656565;
+}
+#head .top .top-r dl dd {
+  float: left;
+}
+#head .top .top-r dl dd a {
+  float: left;
+  color: #000;
+  margin-right: 7px;
+}
+#head .top .top-r ul {
+  float: right;
+}
+#head .top .top-r ul li {
+  float: left;
+  padding: 0 10px;
+  background: url(../img/li.gif) no-repeat right;
+}
+#head .top .top-r ul li.last {
+  background: none;
+}
+#head .top .top-r ul li a {
+  color: #656565;
+}
+
+#head .logo .log {
+  float: left;
+}
+#head .logo .merch {
+  float: left;
+}
+#head .logo .search {
+  float: left;
+}
+#head .logo .wechat {
+  float: left;
+}
+#head .logo .cart {
+  float: left;
+}
+
+/*# sourceMappingURL=head.css.map */
