@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 	var head = {
 		
 		init:function(){
@@ -17,4 +17,4 @@ $(function(){
 	
 	head.init();
 	
-});
+});*/

@@ -25,6 +25,7 @@
 		</div>
 	</div>
 	
+	<!--头部logo部分-->
 	<div class="logo">
 		<div class="log">
 			<a href="#">
@@ -36,10 +37,34 @@
 				<img src="img/easygo_merchant.jpg" />
 			</a>
 		</div>
-		<div class="search"></div>
+		<!--搜索框-->
+		<div class="search">
+			<div class="input">
+				<input type="text" value="搜索关键字" onfocus="if(this.value=='搜索关键字')this.value=' ';" onblur="if(this.value==' ')this.value='搜索关键字';" class="tex"/>
+				<!--搜索按钮-->
+				<a href="#">
+					<img src="img/ss.gif"/>
+				</a>
+			</div>
+			<p>
+				热门搜索：
+				<a href="#" class="first">腕表</a>
+				<a href="#">床品</a>
+				<a href="#">面包机</a>
+				<a href="#">炒锅</a>
+				<a href="#">套组</a>
+			</p>
+		</div>
+		<!--二维码-->
 		<div class="wechat">
 			<img src="img/lnWX.png" />
 		</div>
-		<div class="cart"></div>
+		<!--购物车结算-->
+		<div class="cart">
+			<div class="num">0</div>
+			<div class="text">
+				<a href="#">去购物车结算</a>
+			</div>			
+		</div>
 	</div>
 </div>

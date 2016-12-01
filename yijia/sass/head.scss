@@ -70,11 +70,59 @@
     }
     .search{
         float:left;
+        width: 500px;
+        margin-top: 18px;
+        .input{
+            width: 500px;
+            .tex{
+                float:left;
+                width: 405px;
+                height: 32px;
+                line-height: 32px;
+                color: #939393;
+                padding: 0 5px;
+                border:2px solid #c82324;                               
+            }
+            a{
+               float:left; 
+            }
+        }
+        p{
+            line-height:23px;
+            color:#989898;
+            .first{
+                &:hover{
+                    text-decoration: none;
+                }
+                color: #e2373a;
+                 
+            }
+            a:hover{
+              text-decoration: underline;
+            }
+        }
     }
     .wechat{
         float:left;
+        margin-left: 5px;        
     }
     .cart{
         float:left;
+        background: url(../img/new_gwc.gif) no-repeat;
+        width: 126px;
+        height:44px;
+        margin-left: 20px;
+        margin-top: 15px;
+        .num{
+            width: 100px;
+            padding-left: 26px;
+            color: #fff;            
+        }
+        .text{
+            margin:2px 0 0 32px;
+            a{
+                color: #656565;
+            }
+        }
     }
 }

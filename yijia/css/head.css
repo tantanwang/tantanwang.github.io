@@ -61,12 +61,59 @@
 }
 #head .logo .search {
   float: left;
+  width: 500px;
+  margin-top: 18px;
+}
+#head .logo .search .input {
+  width: 500px;
+}
+#head .logo .search .input .tex {
+  float: left;
+  width: 405px;
+  height: 32px;
+  line-height: 32px;
+  color: #939393;
+  padding: 0 5px;
+  border: 2px solid #c82324;
+}
+#head .logo .search .input a {
+  float: left;
+}
+#head .logo .search p {
+  line-height: 23px;
+  color: #989898;
+}
+#head .logo .search p .first {
+  color: #e2373a;
+}
+#head .logo .search p .first:hover {
+  text-decoration: none;
+}
+#head .logo .search p a:hover {
+  text-decoration: underline;
 }
 #head .logo .wechat {
   float: left;
+  margin-left: 5px;
 }
 #head .logo .cart {
   float: left;
+  background: url(../img/new_gwc.gif) no-repeat;
+  width: 126px;
+  height: 44px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+#head .logo .cart .num {
+  width: 100px;
+  padding-left: 26px;
+  color: #fff;
+}
+#head .logo .cart .text {
+  margin: 2px 0 0 32px;
+}
+#head .logo .cart .text a {
+  color: #656565;
 }
 
 /*# sourceMappingURL=head.css.map */
