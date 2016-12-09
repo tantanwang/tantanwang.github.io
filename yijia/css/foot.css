@@ -1,0 +1,45 @@
+.foot .foot-t {
+  width: 1210px;
+  margin-top: 5px;
+  background: url(../img/in_ksbg.gif) repeat-x top;
+}
+.foot .foot-t dl {
+  float: left;
+  width: 156px;
+  background: url(../img/li3.gif) repeat-y left;
+  padding-left: 14px;
+  margin-top: 26px;
+}
+.foot .foot-t dl dt {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  margin-top: 3px;
+}
+.foot .foot-t dd {
+  width: 100%;
+  line-height: 18px;
+}
+.foot .foot-t dd a {
+  color: #333333;
+  font-size: 12px;
+}
+.foot .foot-t dd a:hover {
+  color: #c82323;
+  text-decoration: underline;
+}
+.foot .foot-c {
+  margin-top: 5px;
+}
+.foot .foot-b {
+  width: 1210px;
+  text-align: center;
+  margin-top: 15px;
+  color: #999999;
+  line-height: 18px;
+  padding-bottom: 30px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=foot.css.map */

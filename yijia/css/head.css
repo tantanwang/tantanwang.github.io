@@ -1,3 +1,9 @@
+@charset "UTF-8";
+#head .top {
+  float: left;
+  width: 1210px;
+  height: 31px;
+}
 #head .top .top-l {
   float: left;
   width: 598px;
@@ -53,6 +59,11 @@
   color: #656565;
 }
 
+#head .logo {
+  float: left;
+  width: 1210px;
+  height: 90px;
+}
 #head .logo .log {
   float: left;
 }
@@ -114,6 +125,150 @@
 }
 #head .logo .cart .text a {
   color: #656565;
+}
+
+#head .menu {
+  float: left;
+  width: 1210px;
+  height: 40px;
+}
+#head .menu dl {
+  float: left;
+  width: 100%;
+  line-height: 40px;
+}
+#head .menu dl .goods-menu {
+  float: left;
+  position: relative;
+}
+
+#head .menu dl .goods-menu .box {
+  float: left;
+  width: 210px;
+  height: 413px;
+  position: absolute;
+  background: url(../img/li2.gif) repeat-y;
+  border-bottom: 2px solid #C82324;
+  background-color: #fff;
+  z-index: 99;
+}
+#head .menu dl .goods-menu .box .fag {
+  position: relative;
+  height: 380px;
+}
+#head .menu dl .goods-menu .box .click{
+	border-left: 2px solid #C82324;
+	border-right: 2px solid #C82324;
+	width: 206px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background: #f9f9f9;
+	color: #323232;
+}
+#head .menu dl .goods-menu .box .fag dt {
+  width: 197px;
+  height: 33px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background: url(../img/jt.gif) no-repeat right center;
+  border-bottom: 1px solid #fefefe;
+  background-color: #f9f9f9;
+  color: #C82324;
+  padding-left: 9px;
+  margin-left: 2px;
+}
+#head .menu dl .goods-menu .box .fag .allsort .sort-item {
+  -overflow: hidden;
+  width: 170px;
+  font-size: 12px;
+  height: 30px;
+}
+#head .menu dl .goods-menu .box .fag .allsort .sort-item span {
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 16px 0 21px;
+  margin-left: 2px;
+  width: 170px;
+  height: 30px;
+}
+#head .menu dl .goods-menu .box .fag .allsort .sort-item span:hover {
+  border-left: 1px solid #c30;
+  border-top: 1px solid #c30;
+  border-bottom: 1px solid #c30;
+  border-right: 0px solid #c30;
+  background: #f9f9f9;
+}
+#head .menu dl .goods-menu .box .fag .allsort .sort-item .subarea {
+  display: none;
+  position: absolute;
+  left: 209px;
+  top: 0;
+  border: 1px solid #C30;
+  background-color: #fff;
+  width: 506px;
+  height: 306px;
+}
+#head .menu dl .goods-menu .box .fag .allsort .sort-item .subarea a {
+  display: inline-block;
+  font: 12px/20px "微软雅黑";
+  color: #464646;
+  font-weight: nomal;
+  border-right: 1px solid #ccc;
+  padding: 0 8px;
+  margin-bottom: 5px;
+}
+#head .menu dl .goods-menu p {
+  width: 193px;
+  height: 40px;
+  padding-left: 17px;
+  margin-right: 15px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #C82324;
+  cursor: pointer;
+}
+#head .menu dl .goods-menu .allgoods {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 210px;
+  height: 413px;
+  background-image: url(../img/null.png);
+}
+#head .menu dl .nav-item {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 18px;
+}
+#head .menu dl .nav-item .last {
+  color: #C82324;
+}
+#head .menu dl .nav-item a {
+  color: #000;
+}
+#head .menu dl .nav-item a:hover {
+  color: #C82324;
+  text-decoration: underline;
+}
+#head .menu dl dd.bg {
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 15px;
+  background: url(../img/li1.gif) no-repeat right top;
+}
+#head .menu dl dd.bg a {
+  color: #C82324;
+}
+#head .menu dl dd.bg a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=head.css.map */
